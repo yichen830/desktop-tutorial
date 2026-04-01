@@ -59,11 +59,3 @@ python security-research/tools/middleware_cve_audit.py --input security-research
 ]
 ```
 
-## 建议发布方式
-
-如果要公开发布到 GitHub，建议仓库首页明确标注：
-
-- 仅限防御研究
-- 不含利用代码
-- 不面向未授权测试
-- 如需演示，仅在本地靶场进行
