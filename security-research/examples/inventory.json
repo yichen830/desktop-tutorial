@@ -1,0 +1,20 @@
+[
+  {
+    "name": "core-tomcat",
+    "product": "tomcat",
+    "version": "9.0.30",
+    "exposure": ["8080", "8009/ajp"]
+  },
+  {
+    "name": "wiki-prod",
+    "product": "confluence",
+    "version": "7.13.6",
+    "exposure": ["443", "internet"]
+  },
+  {
+    "name": "legacy-oa",
+    "product": "struts2",
+    "version": "2.5.30",
+    "exposure": ["80", "upload-enabled"]
+  }
+]
